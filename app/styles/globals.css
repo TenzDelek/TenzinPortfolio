@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #101010;
+    margin: 0;
+    color: #EDEDEC;
+    
+}
+
+.back{
+    backface-visibility: hidden;
+}
+.transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+@layer base{
+    body{
+
+        @apply scrollbar-hide  ;
+    }
+}

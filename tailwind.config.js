@@ -12,7 +12,31 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'tenzingrey': '#61677A',
+        'tenzingreydark': '#272829',
+      },
     },
   },
-  plugins: [],
+  theme:{
+    extend:{
+      animation:{
+        'tenzin':'move 1s infinite ease-in-out alternate',
+      },
+      keyframes:{
+        move:{
+          '0%': { transform: 'translateY(-15px)' },
+          '100%': { transform: 'translateY(15px) ' },
+        }
+      },
+      colors:{
+        insta:"#E4405F",
+        linkedin:"#0A66C2",
+        git:"#EA4C89"
+      }
+    }
+  },
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
