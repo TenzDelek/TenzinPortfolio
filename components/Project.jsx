@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-export default function index({ index, title, setModal,linko}) {
+export default function Index({ index, title, setModal,linko}) {
   return (
     <a href={linko} target="_blank">
     <div
