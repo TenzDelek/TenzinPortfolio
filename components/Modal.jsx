@@ -20,7 +20,7 @@ const scaleAnimation = {
   },
 };
 
-export default function index({ modal, projects }) {
+export default function Index({ modal, projects }) {
   const { active, index } = modal;
   const modalContainer = useRef(null);
   const cursor = useRef(null);
