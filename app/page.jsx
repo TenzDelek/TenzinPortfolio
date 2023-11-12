@@ -74,11 +74,11 @@ export default function Home() {
         <div className=" grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8 ">
           <div className=" flex flex-col gap-4 justify-center">
             <h1 className=" text-5xl xl:text-7xl font-bold mt-7">
-              TENZIN DELEK{" "}
+              TENZIN DELEK<br/>
               <span className=" text-[#454545]">FRONTEND DEVELOPER UI/UX</span>
             </h1>
             <p className=" text-sm font-normal text-zinc-400">
-              <span className=" text-white">Hello, this is Tenzin Delek,</span>{" "}
+              <span className=" text-white">Hello, this is Tenzin Delek,</span>
               Senior at Vellore Institute of Technology. I am currently pursing
               Bachelor in Computer Application. I have a keen interest working
               in UX /UI design and Web Development using Three js and App
@@ -99,10 +99,10 @@ export default function Home() {
           <h1 className=" text-4xl font-semibold">
           བཀྲ་ཤིས་བདེ་ལེགས། ངའི་མིང་ལ་བསྟན་འཛིན་བདེ་ལེགས་ཟེར།   
           </h1>
-          <p className="flex-1 text-xs text-gray-200 ">"Though equal benefits be conferred<br/>
+          <p className="flex-1 text-xs text-gray-200 ">Though equal benefits be conferred<br/>
 On the excellent and the vulgar, the return is not equal.<br/>
 Though there is no difference in the seed sown in different fields,<br/>
-Yet there is immense variety in the crop.."<br/><br/>
+Yet there is immense variety in the crop..<br/><br/>
           <span className=" text-yellow-300 indent-40 text-base ">-- ས་སྐྱ​་པཎ་ཌི་ཏ་ཀུན་དགའ་རྒྱལ་མཚན་</span></p>
           <div className=" flex flex-col lg:flex-row items-center gap-4 justify-items-end">
             <button className=" bg-black text-white text-sm font-medium  py-3 px-3 rounded-full w-60 lg:w-auto">
